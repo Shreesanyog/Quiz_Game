@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Question: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 304.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Question'
+    TabOrder = 0
+  end
+  object Answer1: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 57.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Answer1'
+    OnChange = Answer1Change
+  end
+  object Answer2: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Answer2'
+    OnChange = Answer2Change
+  end
+  object Answer3: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Answer3'
+    OnChange = Answer3Change
+  end
+  object Confirm: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Confirm'
+    OnClick = ConfirmClick
+  end
+  object Label2: TLabel
+    Position.X = 496.000000000000000000
+    Position.Y = 32.000000000000000000
+    Text = 'Points:'
+    TabOrder = 5
+  end
+  object Point: TLabel
+    Position.X = 560.000000000000000000
+    Position.Y = 32.000000000000000000
+    Text = 'Point'
+    TabOrder = 6
+  end
+  object Answer4: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 166.000000000000000000
+    TabOrder = 7
+    Text = 'Answer4'
+    OnChange = Answer4Change
+  end
+end
